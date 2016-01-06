@@ -1,8 +1,24 @@
-.column {
+.column1, .column2, .column3 {
   width: 30%;
   float: right;
+  height: 600px;
 }
 
-.column img {
+img {
   width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.column1 {
+  background-color: green;
+}
+
+.column2 {
+  background-color: lightblue;
+}
+
+.column3 {
+  background-color: maroon;
 }
